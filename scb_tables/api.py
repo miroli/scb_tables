@@ -5,6 +5,8 @@ import os
 
 from .Table import Table
 
+TEST = True
+
 __location__ = os.path.realpath(
     os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
